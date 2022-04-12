@@ -66,7 +66,7 @@ Chat = {
                                 var flag = false;
                                 message.tags.badges.split(",").forEach((badge) => {
                                     badge = badge.split("/");
-                                    if (badge[0] === "broadcaster" || nick.toLowerCase() == "dschogo" || nick.toLowerCase() == "dave_in_game") {
+                                    if (badge[0] === "broadcaster" || nick.toLowerCase() == "dschogo" || nick.toLowerCase() == "kdrshromp" || nick.toLowerCase() == "dave_in_game") {
                                         flag = true;
                                         return;
                                     }
